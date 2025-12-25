@@ -1,5 +1,10 @@
 Django>=4.2
 djangorestframework
 django-cors-headers
+gunicorn
+psycopg2-binary 
 python-dotenv
-psycopg2-binary
+Pillow
+whitenoise
+boto3
+django-storages
