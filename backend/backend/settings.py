@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-xfj=(v$%ft*i)cd-xqru6)7-(c69ogy+53wk*zlg*c==xd!rzn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["expanses-tracker-ava7.onrender.com",
+    "localhost",
+    "127.0.0.1",]
 
 
 # Application definition
