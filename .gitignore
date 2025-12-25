@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+db.sqlite3
+
+# Django
+*.log
+media/
+
+# React
+node_modules/
+build/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
