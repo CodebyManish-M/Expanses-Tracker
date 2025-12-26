@@ -6,6 +6,7 @@ const Home = () => {
 
   return (
     <div className='container text-center mt-5'>
+            <img src={photo1} alt="Banner" style={{ width: '300px', height: 'auto' }} />
       <h1>Welcome to <span className='text-primary'>Daily Expense Tracker</span></h1>
       <p className='lead'>Your personal expense management solution.</p>
       <div className='mt-4'>

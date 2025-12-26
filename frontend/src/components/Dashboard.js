@@ -227,6 +227,8 @@ const Dashboard = () => {
 
   return (
     <div className="container text-center mt-5">
+            <img src={photo1} alt="Banner" style={{ width: '300px', height: 'auto' }} />
+
       <ToastContainer />
       <h1>
         Welcome to your Dashboard, <span className="text-primary">{UserName}</span>
