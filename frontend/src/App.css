@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/photo1.jpg");
+  background-image: url("%PUBLIC_URL%/photo1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
