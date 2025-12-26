@@ -27,7 +27,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ "localhost",
     "127.0.0.1",
-    "expanses-tracker-43ey.onrender.com",]
+    "expanses-tracker-43ey.onrender.com",
+     "expanses-tracker-1.onrender.com",
+
+    ]
 
 
 # Application definition
