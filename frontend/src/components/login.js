@@ -33,14 +33,14 @@ const  Login= () => {
                 localStorage.setItem('UserName',data.UserName);
                 setTimeout(() => {
                     navigate('/dashboard');
-                }, 3000);
+                }, 2000);
             } else {
                 const data = await response.json();
                 toast.error(data.message || "Signup failed");
             }
         } catch (error) {
             console.error("Error during login:", error);
-            toast.error("An error occurred during login. Please try again later.");
+            toast.error("invalid login!. check your email and password.");
         }
     };
   return (
