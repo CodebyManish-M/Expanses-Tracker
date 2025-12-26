@@ -18,14 +18,9 @@ from django.http import JsonResponse
 from django.contrib import admin
 from django.urls import path, include
 
-def home(request):
-    return JsonResponse({
-        "status": "ok",
-        "message": "Expense Tracker API is running"
-    })
+
 
 urlpatterns = [
-    path('', home),
     path('admin/', admin.site.urls),
-    path('api/', include('expenses.urls')),
+    path('', include('expenses.urls')),
 ]
